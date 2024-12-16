@@ -17,6 +17,14 @@ image/
 │   │      ...
 │   └── image-n.jpg
 │
+├── GUI/
+│   ├── main.py
+│   ├── process.py
+│   ├── EXIF.py
+│   ├── path.py
+│   ├── interface.py
+│   └── create_image.py
+│
 └── output/
 ```
 
@@ -34,11 +42,14 @@ image/
     python single.py
     ```
 
+- GUI/main.py
+    GUIによりディレクトリの選択が可能
+    画像ディレクトリおよび出力ディレクトリを選択することで、画像ディレクトリ内の全ての画像に対して処理がなされる。
+    出力ディレクトリに処理を終えた画像が保存される。
+    ```terminal
+    python GUI/main.py
+    ```
 
-#### 関数スクリプト一覧
-- EXIF.py
-- path.py
-- create_image.py
 
 
 #### 出力EXIF情報
